@@ -1,0 +1,10 @@
+Score: 8.5/10
+
+Comments: Firstly, you replaced the word Classes with Objects. Both are totally different.
+Also, I could not understand question 4 & 5. The indentation of the document is totally off. You could have added more Classes, data & behavior in both the questions.
+Example: Parking lot system can have Admin class. As most of the systems will usually with Admin Logins.
+  Class : Administrator  
+  Data : userName,password  
+  Behaviour : login(userName,password), addParking(), changePrice(String vehicleType,float price) or so on..
+
+In addition to this, please keep a single branch, I can see 2 branches main & master.
