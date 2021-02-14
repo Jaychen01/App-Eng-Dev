@@ -1,0 +1,8 @@
+Q9:Explain Encapsulation with an example. (Write at least 30-40 words).
+Encapsulation is a mechanism of binding data and code together as a single unit. For example, encapsulated data and code are like the medicines in the capsule, 
+a programmer selects the encapsulated code to use just like a patient pick up the suitable capsule to take. They are not able to see the inner ingredients, but it works well.  
+Q10: What is Java Garbage Collection? How It Works? What is finalize method in Java? When does an Object becomes eligible for Garbage collection in Java?	 
+A garbage collector is a program that runs on the JVM to recover the memory by deleting the dead objects or abandoned objects. Finalize method is a non-static and protected method
+of java.lang.Object class. It is available in all created objects. Before a garbage collector is going to clean an abandoned object, it will call the finalize method of that 
+object to perform cleanup operations, then the object will be swept out from the memory. An object is said to be eligible for garbage collection if and only if the object is 
+unreachable. (an object which is no longer in use or has finished its life cycle or does not has live references.)
