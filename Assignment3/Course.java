@@ -181,12 +181,7 @@ public class Course {
 		Course cc = new Course(1);
 		int[] s = {1,2,3,4,5,6,7,8,9,10,11};
 		System.out.println(cc.groupsOfStudents(s));
-		
-//		cc.registerStudent(10);
-		
-
-		
-
+	
 	}
 
 }
