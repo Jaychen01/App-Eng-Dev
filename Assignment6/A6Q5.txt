@@ -1,0 +1,8 @@
+How would you differentiate between throw, 
+throws and throwable in Java?
+"throw" is used to throw an exception in a method, 
+it is followed by a sub type of throwable;
+"throws" is used to declare the method may throw exceptions, 
+it is one way to handle an exception and followes the method name;
+"throwable" is a super class for all types of errors and exceptions in java, 
+Customized exceptions must extend this class.
