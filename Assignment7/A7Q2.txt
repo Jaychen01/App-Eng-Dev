@@ -1,0 +1,8 @@
+Write two differences between ArrayList and LinkedList.
+ArrayList uses a dynamic array to store data, while 
+LinkedList uses a doubly linked list to store data;
+ArrayList is better to store and access data, while
+LinkedList is better to manipulate the stored data
+when remove an elment in the middle, ArrayList need 
+more time to traverse and the memorty bits will be shifted, 
+while LinkedList just need to change the reference link which takes less time.
